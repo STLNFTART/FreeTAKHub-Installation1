@@ -16,11 +16,11 @@ concurrency:
 
 jobs:
 #  aws:
-#    runs-on: ubuntu-latest
+#    runs-on: 22.04
 #  mythic-beasts:
-#    runs-on: ubuntu-latest
+#    runs-on: 22.04
   digitalocean:
-    runs-on: ubuntu-latest
+    runs-on: 22.04
     strategy:
       matrix:
         architecture: ['x64']
